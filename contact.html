@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | John Mark Prado</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">
+      <div class="container">
+        <a class="navbar-brand fw-bold hover-underline" href="./index.html"
+          >JMP.DEV</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link custom-width mx-2 fw-bold hover-underline"
+                href="./about.html"
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link custom-width mx-2 fw-bold hover-underline active"
+                href="./contact.html"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container py-5">
+      <div class="row g-4">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <div class="card shadow-lg h-100">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">📩 Get In Touch</h4>
+              <hr />
+              <form action="https://formspree.io/f/xzzdvjag" method="POST">
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-bold">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-bold">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label fw-bold"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Details Section -->
+        <div class="col-md-6">
+          <!-- Contact Information Card -->
+          <div class="card shadow-lg mb-4">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">📞 Contact Information</h4>
+              <hr />
+              <p>
+                <strong>Email:</strong>
+                <a
+                  href="mailto:pradojohnmark40@gmail.com"
+                  class="text-decoration-none"
+                >
+                  pradojohnmark40@gmail.com
+                </a>
+              </p>
+              <p><strong>Phone:</strong> +63 905 638 8318</p>
+            </div>
+          </div>
+
+          <!-- Connect With Me Card -->
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">🌐 Connect With Me</h4>
+              <hr />
+              <ul class="list-unstyled d-flex gap-3 social-icons">
+                <li>
+                  <a
+                    href="https://m.me/johnmark.prado19"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./assets/icons/facebook.svg"
+                      alt="facebook"
+                      class="icon facebook"
+                      height="40"
+                      width="40"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/johnmark000000"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./assets/icons/github.svg"
+                      alt="github"
+                      class="icon github"
+                      height="43"
+                      width="43"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/johnmarkjmp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="./assets/icons/linkedin.svg"
+                      alt="linkedin"
+                      class="icon linkedin"
+                      height="40"
+                      width="40"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+      <footer
+        class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <span class="text-body-secondary mb-3 mb-md-0"
+          >© 2025 John Mark Prado. All rights reserved.</span
+        >
+
+        <ul class="nav footer-icons list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-body-secondary"
+              href="https://m.me/johnmark.prado19"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/icons/facebook.svg"
+                alt="facebook"
+                height="24"
+                width="24"
+              />
+            </a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-body-secondary"
+              href="https://github.com/johnmark000000"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/icons/github.svg"
+                alt="github"
+                height="27"
+                width="27"
+              />
+            </a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-body-secondary"
+              href="https://www.linkedin.com/in/johnmarkjmp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/icons/linkedin.svg"
+                alt="linkedin"
+                height="24"
+                width="24"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Bootstrap CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
